@@ -24,9 +24,10 @@ hose {
                     | -DDCOS_CLI_HOST=%%DCOSCLI#0
                     | -DDCOS_CLI_USER=root
                     | -DDCOS_CLI_PASSWORD=stratio
+                    | -DPAAS_UNIVERSE_NAME=PaaS
+                    | -DPAAS_UNIVERSE_PRIORITY=0
                     | -DPAAS_UNIVERSE_PATH=http://sodio.stratio.com/nexus/content/sites/paas/universe/0.3.0-SNAPSHOT/stratio-paas-universe-0.3.0-SNAPSHOT.zip
                     | """.stripMargin().stripIndent()
-
 
     AT = { config ->
         doAT(conf: config, groups: ['universe'])
