@@ -20,14 +20,14 @@ import com.stratio.tests.utils.BaseTest;
 import cucumber.api.CucumberOptions;
 import org.testng.annotations.Test;
 
-@CucumberOptions(features = { "src/test/resources/features/universe.feature" })
-public class IT_universe extends BaseTest {
+@CucumberOptions(features = { "src/test/resources/features/removeUniverse.feature" })
+public class IT_removeUniverse extends BaseTest {
 
-    public IT_universe() {
+    public IT_removeUniverse() {
     }
 
     @Test(enabled = true, groups = {"universe"})
-    public void addition() throws Exception {
+    public void removal() throws Exception {
         new CucumberRunner(this.getClass()).runCukes();
     }
 }
