@@ -10,7 +10,7 @@ hose {
     
     ATSERVICES = [
             ['DCOSCLI':   ['image': 'stratio/dcos-cli:0.4.14',
-                           'env':    ['DCOS_URL=http://10.200.0.205',
+                           'env':    ['DCOS_URL=https://10.200.0.205',
                                       'SSH=true',
                                       'TOKEN_AUTHENTICATION=true',
                                       'DCOS_USER=admin@demo.stratio.com',
