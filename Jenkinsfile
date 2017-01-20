@@ -4,6 +4,7 @@ hose {
     EMAIL = 'qa'
     SLACKTEAM = 'stratioqa'
     MODULE = 'paasuniAT'
+    REPOSITORY = 'paas-universe-at'
     
     ATTIMEOUT = 10
     
