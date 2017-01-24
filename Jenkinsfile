@@ -18,16 +18,12 @@ hose {
                                       'REMOTE_USER=root',
                                       'REMOTE_PASSWORD=stratio',
                                       'MASTER_MESOS=10.200.0.205'],
-                           'sleep':  10]]
+                           'sleep':  20]]
         ]
 
     ATPARAMETERS = """
                     | -DDCOS_CLI_HOST=%%DCOSCLI#0
-                    | -DDCOS_CLI_USER=root
-                    | -DDCOS_CLI_PASSWORD=stratio
-                    | -DPAAS_UNIVERSE_NAME=PaaS
-                    | -DPAAS_UNIVERSE_PRIORITY=0
-                    | -DPAAS_UNIVERSE_PATH=http://sodio.stratio.com/nexus/content/sites/paas/universe/0.4.0-SNAPSHOT/stratio-paas-universe-0.4.0-SNAPSHOT.zip
+                    | -DPAAS_UNIVERSE_VERSION=0.4.0-SNAPSHOT
                     | """.stripMargin().stripIndent()
 
     AT = { config ->
