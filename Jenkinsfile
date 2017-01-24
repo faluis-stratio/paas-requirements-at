@@ -15,10 +15,10 @@ hose {
                                       'TOKEN_AUTHENTICATION=true',
                                       'DCOS_USER=admin@demo.stratio.com',
                                       'DCOS_PASSWORD=stratiotest',
-                                      'REMOTE_USER=root',
-                                      'REMOTE_PASSWORD=stratio',
-                                      'MASTER_MESOS=10.200.0.205'],
-                           'sleep':  20]]
+                                      'REMOTE_USER=operador',
+                                      'PEM_FILE_PATH=src/test/resources/credentials/PaasIntegration.pem',
+			              'MASTER_MESOS=10.200.0.205'],
+                           'sleep':  10]]
         ]
 
     ATPARAMETERS = """
