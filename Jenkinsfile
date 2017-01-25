@@ -10,13 +10,14 @@ hose {
     
     ATSERVICES = [
             ['DCOSCLI':   ['image': 'stratio/dcos-cli:0.4.14',
-                           'env':    ['DCOS_URL=https://10.200.0.205',
+			   'volumes': ["${pwd()}/src/test/resources/credentials/PaasIntegration.pem:/PaasIntegration.pem"],
+                           'env':     ['DCOS_URL=https://10.200.0.205',
                                       'SSH=true',
                                       'TOKEN_AUTHENTICATION=true',
                                       'DCOS_USER=admin@demo.stratio.com',
                                       'DCOS_PASSWORD=stratiotest',
                                       'REMOTE_USER=operador',
-                                      'PEM_FILE_PATH=src/test/resources/credentials/PaasIntegration.pem',
+                                      'PEM_FILE_PATH=/PaasIntegration.pem',
 			              'MASTER_MESOS=10.200.0.205'],
                            'sleep':  10]]
         ]
