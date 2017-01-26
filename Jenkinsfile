@@ -9,16 +9,16 @@ hose {
     ATTIMEOUT = 10
     
     ATSERVICES = [
-            ['DCOSCLI':   ['image': 'stratio/dcos-cli:0.4.14',
+            ['DCOSCLI':   ['image': 'stratio/dcos-cli:0.4.15',
 			   'volumes': ['stratio/paasintegrationpem:0.1.0'],
-                           'env':     ['DCOS_URL=https://10.200.0.205',
-                                      'SSH=true',
+                           'env':     ['DCOS_IP=10.200.0.205',
+                                      'SSL=true',
+				      'SSH=true',
                                       'TOKEN_AUTHENTICATION=true',
                                       'DCOS_USER=admin@demo.stratio.com',
                                       'DCOS_PASSWORD=stratiotest',
-                                      'REMOTE_USER=operador',
-                                      'PEM_FILE_PATH=/paascerts/PaasIntegration.pem',
-			              'MASTER_MESOS=10.200.0.205'],
+                                      'BOOTSTRAP_USER=operador',
+                                      'PEM_FILE_PATH=/paascerts/PaasIntegration.pem'],
                            'sleep':  10]]
         ]
 
