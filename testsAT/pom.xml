@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <stratio-test-bdd.version>0.3.0</stratio-test-bdd.version>
+        <stratio-test-bdd.version>0.4.0-SNAPSHOT</stratio-test-bdd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>     
     </properties>
@@ -49,7 +49,7 @@
                         </property>
                         <property>
                             <name>listener</name>
-                            <value>com.stratio.tests.utils.JaCoCoClient</value>
+                            <value>com.stratio.qa.utils.JaCoCoClient</value>
                         </property>
                     </properties>
                     <argLine>-Xmx1024m -XX:+HeapDumpOnOutOfMemoryError

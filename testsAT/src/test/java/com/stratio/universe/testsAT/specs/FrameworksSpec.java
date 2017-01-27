@@ -1,13 +1,13 @@
 package com.stratio.universe.testsAT.specs;
 
-import com.stratio.tests.utils.RemoteSSHConnection;
-import com.stratio.tests.utils.ThreadProperty;
+import com.stratio.qa.utils.RemoteSSHConnection;
+import com.stratio.qa.utils.ThreadProperty;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import static com.stratio.assertions.Assertions.assertThat;
+import static com.stratio.qa.assertions.Assertions.assertThat;
 
 public class FrameworksSpec extends BaseSpec {
 

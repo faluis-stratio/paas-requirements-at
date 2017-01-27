@@ -15,8 +15,8 @@
  */
 package com.stratio.tests.utils;
 
-import com.stratio.cucumber.testng.ICucumberFormatter;
-import com.stratio.cucumber.testng.ICucumberReporter;
+import com.stratio.qa.cucumber.testng.ICucumberFormatter;
+import com.stratio.qa.cucumber.testng.ICucumberReporter;
 import com.stratio.universe.testsAT.specs.BaseSpec;
 import com.stratio.universe.testsAT.specs.Common;
 import gherkin.formatter.model.*;
