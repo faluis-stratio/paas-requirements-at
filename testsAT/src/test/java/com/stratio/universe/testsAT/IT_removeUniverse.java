@@ -26,7 +26,7 @@ public class IT_removeUniverse extends BaseTest {
     public IT_removeUniverse() {
     }
 
-    @Test(enabled = true, groups = {"removeUniverse"}, dependsOnGroups = {"universe"})
+    @Test(enabled = true, groups = {"removeUniverse"})
     public void removal() throws Exception {
         new CucumberRunner(this.getClass()).runCukes();
     }
