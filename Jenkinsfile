@@ -24,7 +24,6 @@ hose {
 
     ATPARAMETERS = """
                     | -DDCOS_CLI_HOST=%%DCOSCLI#0
-                    | -DPAAS_UNIVERSE_VERSION=0.4.0-SNAPSHOT
                     | """.stripMargin().stripIndent()
 
     AT = { config ->
