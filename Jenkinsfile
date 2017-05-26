@@ -5,6 +5,7 @@ hose {
     SLACKTEAM = 'stratioqa'
     MODULE = 'paasreqAT'
     REPOSITORY = 'paas-requirements-at'
+    BUILDTOOL = 'make'
     
     ATTIMEOUT = 10
     
