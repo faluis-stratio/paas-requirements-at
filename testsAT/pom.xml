@@ -17,9 +17,9 @@
     </parent>
 
     <groupId>com.stratio.paas</groupId>
-    <artifactId>paas-requirements-AT</artifactId>
+    <artifactId>paas-requirements-at</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <name>paas-requirements-AT</name>
+    <name>paas-requirements-at</name>
 
     <build>
         <plugins>
