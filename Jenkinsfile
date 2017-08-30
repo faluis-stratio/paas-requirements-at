@@ -60,6 +60,10 @@ hose {
                     | -DREMOTE_PASSWORD=stratio
                     | -DDCOS_CLI_USER=root
                     | -DDCOS_CLI_PASSWORD=stratio
+                    | -DDCOS_IP=10.200.0.205
+                    | -DPEM_FILE=none
+                    | -DVAULT_HOST=gosec2.node.paas.labs.stratio.com
+                    | -DVAULT_PORT=8200
                     | """.stripMargin().stripIndent()
 
     INSTALL = { config, params ->
