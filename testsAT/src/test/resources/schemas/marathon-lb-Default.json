@@ -40,7 +40,7 @@
   "maxLaunchDelaySeconds": 3600,
   "container": {
     "docker": {
-      "image": "qa.stratio.com/stratio/marathon-lb-sec:1.5.1",
+      "image": "qa.stratio.com/stratio/marathon-lb-sec:0.1.0",
       "forcePullImage": false,
       "privileged": true,
       "network": "HOST"
@@ -66,10 +66,10 @@
   },
   "labels": {
     "DCOS_PACKAGE_RELEASE": "0",
-    "DCOS_PACKAGE_SOURCE": "http://172.19.1.0:8080/repo",
+    "DCOS_PACKAGE_SOURCE": "http://iodo.stratio.com:8080/repo",
     "DCOS_PACKAGE_METADATA": "eyJwYWNrYWdpbmdWZXJzaW9uIjoiMi4wIiwibmFtZSI6Im1hcmF0aG9uLWxiLXNlYyIsInZlcnNpb24iOiIxLjUuMSIsIm1haW50YWluZXIiOiJzdXBwb3J0QG1lc29zcGhlcmUuaW8iLCJkZXNjcmlwdGlvbiI6IkhBUHJveHkgY29uZmlndXJlZCB1c2luZyBNYXJhdGhvbiBzdGF0ZSIsInRhZ3MiOlsibG9hZGJhbGFuY2VyIiwic2VydmljZS1kaXNjb3ZlcnkiLCJyZXZlcnNlLXByb3h5IiwicHJveHkiLCJoYXByb3h5Il0sInNlbGVjdGVkIjpmYWxzZSwic2NtIjoiaHR0cHM6Ly9naXRodWIuY29tL21lc29zcGhlcmUvbWFyYXRob24tbGIiLCJmcmFtZXdvcmsiOmZhbHNlLCJwcmVJbnN0YWxsTm90ZXMiOiJXZSByZWNvbW1lbmQgYXQgbGVhc3QgMiBDUFVzIGFuZCAxR2lCIG9mIFJBTSBmb3IgZWFjaCBNYXJhdGhvbi1MQiBpbnN0YW5jZS4gXG5cbipOT1RFKjogYGBgRW50ZXJwcmlzZSBFZGl0aW9uYGBgIERDL09TIHJlcXVpcmVzIHNldHRpbmcgdXAgdGhlIFNlcnZpY2UgQWNjb3VudCBpbiBhbGwgc2VjdXJpdHkgbW9kZXMuIFxuRm9sbG93IHRoZXNlIGluc3RydWN0aW9ucyB0byBzZXR1cCBhIFNlcnZpY2UgQWNjb3VudDogaHR0cHM6Ly9kb2NzLm1lc29zcGhlcmUuY29tLzEuOC9hZG1pbmlzdHJhdGlvbi9pZC1hbmQtYWNjZXNzLW1ndC9zZXJ2aWNlLWF1dGgvbWxiLWF1dGgvIiwicG9zdEluc3RhbGxOb3RlcyI6Ik1hcmF0aG9uLWxiIERDL09TIFNlcnZpY2UgaGFzIGJlZW4gc3VjY2Vzc2Z1bGx5IGluc3RhbGxlZCFcblNlZSBodHRwczovL2dpdGh1Yi5jb20vbWVzb3NwaGVyZS9tYXJhdGhvbi1sYiBmb3IgZG9jdW1lbnRhdGlvbi4iLCJwb3N0VW5pbnN0YWxsTm90ZXMiOiJNYXJhdGhvbi1sYiBEQy9PUyBTZXJ2aWNlIGhhcyBiZWVuIHVuaW5zdGFsbGVkIGFuZCB3aWxsIG5vIGxvbmdlciBydW4uIiwibGljZW5zZXMiOlt7Im5hbWUiOiJBcGFjaGUgTGljZW5zZSBWZXJzaW9uIDIuMCIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tZXNvc3BoZXJlL21hcmF0aG9uL2Jsb2IvbWFzdGVyL0xJQ0VOU0UifSx7Im5hbWUiOiJHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2ZXJzaW9uIDIiLCJ1cmwiOiJodHRwOi8vd3d3LmhhcHJveHkub3JnL2Rvd25sb2FkLzEuNi9kb2MvTElDRU5TRSJ9XSwiaW1hZ2VzIjp7Imljb24tc21hbGwiOiJodHRwczovL2Rvd25sb2Fkcy5tZXNvc3BoZXJlLmNvbS91bml2ZXJzZS9hc3NldHMvaWNvbi1zZXJ2aWNlLW1hcmF0aG9ubGItc21hbGwucG5nIiwiaWNvbi1tZWRpdW0iOiJodHRwczovL2Rvd25sb2Fkcy5tZXNvc3BoZXJlLmNvbS91bml2ZXJzZS9hc3NldHMvaWNvbi1zZXJ2aWNlLW1hcmF0aG9ubGItbWVkaXVtLnBuZyIsImljb24tbGFyZ2UiOiJodHRwczovL2Rvd25sb2Fkcy5tZXNvc3BoZXJlLmNvbS91bml2ZXJzZS9hc3NldHMvaWNvbi1zZXJ2aWNlLW1hcmF0aG9ubGItbGFyZ2UucG5nIn19",
     "DCOS_PACKAGE_REGISTRY_VERSION": "2.0",
-    "DCOS_PACKAGE_VERSION": "1.5.1",
+    "DCOS_PACKAGE_VERSION": "0.1.0",
     "DCOS_PACKAGE_NAME": "marathon-lb-sec",
     "DCOS_PACKAGE_IS_FRAMEWORK": "false"
   },
