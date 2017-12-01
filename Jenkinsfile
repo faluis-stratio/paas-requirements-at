@@ -55,14 +55,7 @@ hose {
 
     INSTALLPARAMETERS = """
                     | -DDCOS_CLI_HOST=%%DCOSCLI#0
-                    | -DDCOS_USER=admin@demo.stratio.com
-                    | -DREMOTE_USER=root
-                    | -DREMOTE_PASSWORD=stratio
-                    | -DDCOS_CLI_USER=root
-                    | -DDCOS_CLI_PASSWORD=stratio
                     | -DDCOS_IP=10.200.0.205
-                    | -DVAULT_HOST=gosec2.node.paas.labs.stratio.com
-                    | -DVAULT_PORT=8200
                     | """.stripMargin().stripIndent()
 
     INSTALL = { config, params ->
